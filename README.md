@@ -13,4 +13,6 @@
 
 ### npm i react-calendar
 
+### npm install react-data-table-component styled-components
+
 ### npm run dev

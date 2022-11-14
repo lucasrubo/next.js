@@ -48,7 +48,7 @@ function Usuario(){
                         </div>
 
                         <input type="submit" value="Cadastrar"/>
-                        <Link className="voltar" href="#" onClick={() => router.back()}>
+                        <Link className="voltar" href="#" onClick={() => router.back({ shallow: true })}>
                                 Voltar
                         </Link>
                     </form>

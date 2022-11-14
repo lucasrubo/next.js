@@ -1,5 +1,7 @@
 import Head from "next/head";
 import React, { useState, useEffect } from 'react';
+import Script from 'next/script'
+
 function Header(texto){;
     return(<div className="menu-topo max-width">
         <Head>

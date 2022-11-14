@@ -24,7 +24,7 @@ function Login(){
                             <input required type="text" name="login" placeholder="LOGIN"/>
                             <input required type="password" name="senha" placeholder="SENHA" />
                             <a href="#">Esqueceu a Senha?</a>
-                            <input type="submit" value="INICIAR SESSÃO"/>
+                            <input style={{marginRight: 0 + 'px'}} type="submit" value="INICIAR SESSÃO"/>
                         </form>
                     </div>
                 </div>

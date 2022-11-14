@@ -15,7 +15,7 @@ function HomePage(){
                     <Link  className="botao-menu" href="/cadastro">
                             Cadastrar
                     </Link>
-                    <Link  className="botao-menu" href="/Consultar">
+                    <Link  className="botao-menu" href="/consultar">
                             Consultar
                     </Link>
                     <Link  className="botao-menu" href="/Agendamento">
