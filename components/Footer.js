@@ -1,6 +1,6 @@
 const Footer = ()=>(
     <div className="footer max-width">
-        <img src="../footer.jpg" alt="footer" />
+        <img src="../images/footer.jpg" alt="footer" />
     </div>
 );
 

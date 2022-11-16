@@ -15,12 +15,12 @@ function Header(texto){;
             <div className="container-menu">
                 <div className="logo">
                     <a href="../">
-                        <img src="../logo.jpeg" alt="logo" /><b>WASH MANAGER</b>
+                        <img src="../images/logo.png" alt="logo" /><b>WASH MANAGER</b>
                     </a>
                 </div>
                 <div className="pagina-right">
                     <div className="detalhe">
-                        <img src="../detalhe-menu.jpg" alt="detalhe" />
+                        <img src="../images/detalhe-menu.png" alt="detalhe" />
                     </div>
                     <div className="usuario">
                         <label id="texto_detalhe">{texto.children}</label>

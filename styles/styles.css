@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Fonte';
+    src: url('../public/ErasBoldITC.ttf') format('truetype');
+}
 *{
     margin:0;
     padding:0;
@@ -5,12 +9,56 @@
     text-decoration: none;
 }
 html { 
-    font-family: century-gothic, sans-serif;
+    font-family: 'Fonte';
     font-weight: 400;
     font-style: normal;
-  }
+}
 body{
-    background-color: #5DC5F0;
+    background-color: #2298e2;
+}
+.iSAVrt {
+    background: #2298e2 !important;
+    padding-bottom: 10px;
+}
+.rdt_TableCol {
+    border-radius: 25px !important;
+    border: 1px solid black;
+    margin-right: 10px;
+    background: white;
+    color: #032C4F;
+    font-weight: 600;
+}
+.rdt_TableCell {
+    border-right: 1px solid #e0e0e0;
+}
+.rdt_TableBody {
+    /* border-radius: 30px; */
+    border: 1px solid black;
+    border-bottom: none;
+}
+.rdt_ExpanderRow {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 7px 15px;
+}
+.gKbhqU {
+    border: 1px solid black !important;
+    border-top-color: rgba(0,0,0,.12) !important;
+}
+.dwPlXY {
+    color: #032C4F !important;
+}
+.fundo{    
+    background: url("../public/images/fundo-login.jpg") fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 .right{
     float:right;
@@ -72,11 +120,11 @@ body{
 .coteudo {
     width: 100%;
     text-align: center;
-    min-height: 22rem;    
+    min-height: 45rem; 
     padding: 0rem 7rem 5rem 7rem;
 }
 .box{    
-    width: max-content;
+    /* width: max-content; */
     display: inline-block;;
     margin-top: 3rem;
     margin-right:10px;
@@ -102,7 +150,6 @@ body{
 .footer {
     position: absolute;
     left: 0;
-    bottom:0;
 }
 .footer img{
     width: 100%;
